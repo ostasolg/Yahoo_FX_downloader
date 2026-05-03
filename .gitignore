@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Data outputs
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.parquet
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
